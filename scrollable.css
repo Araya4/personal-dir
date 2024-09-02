@@ -1,15 +1,10 @@
 body{
-    background-color: #A0DEFF;
+    background-color: #CDF5FD;
     cursor: pointer;
 }
 .btn-custom{
     background-color: transparent;
-    color:#0088ff;
-}
-
-.btn-custom:hover{
-    background-color: transparent;
-    color:#0088ff;
+    color:#0090d9;
 }
 
 /* Ensure the right-side div is fixed in size and scrollable */
@@ -39,8 +34,7 @@ body{
     height: 100%;
   }
   .accordion-header{
-    background-color: #A0DEFF;
-    color:#FFF9D0;
+    background-color: #A0E9FF;
     display: flex;
     flex-wrap: wrap;
   }
@@ -53,19 +47,19 @@ body{
 
   }
   i{
-    color:#FFF9D0;
+    color:#00A9FF;
   }
   a{
     text-decoration: none;
     display: block;
   }
   .scrollable-div > a:nth-child(odd) {
-    background-color: #CAF4FF;
-    color:#5AB2FF;
+    background-color: #b9f3ff;
+    color:#0090d9;
   }
   .scrollable-div > a:nth-child(even) {
-    background-color: #A0DEFF;
-    color:rgb(19, 145, 248);
+    background-color: transparent;
+    color:#0090d9;
   }
   .scrollable-div > a:hover{
     color:#359efa;
@@ -80,6 +74,6 @@ body{
     border: none;
 }
 .card-body > i{
-    color:#5AB2FF;
+    color:#00A9FF;
     margin-left: 1%;
 }
