@@ -1,0 +1,85 @@
+body{
+    background-color: #A0DEFF;
+    cursor: pointer;
+}
+.btn-custom{
+    background-color: transparent;
+    color:#0088ff;
+}
+
+.btn-custom:hover{
+    background-color: transparent;
+    color:#0088ff;
+}
+
+/* Ensure the right-side div is fixed in size and scrollable */
+.scrollable-div {
+    background-color: transparent;
+    height: 50vh; /* Adjust the height as needed */
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+    padding: 0px; /* Optional padding */
+}
+
+/* Style for text boxes */
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 62.50%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .accordion-header{
+    background-color: #A0DEFF;
+    color:#FFF9D0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .accordion-button{ background-color: transparent; color:#fff;}
+  .accordion-item{
+    position: relative;
+    background-color: transparent;
+    border-radius: 10px;
+
+
+  }
+  i{
+    color:#FFF9D0;
+  }
+  a{
+    text-decoration: none;
+    display: block;
+  }
+  .scrollable-div > a:nth-child(odd) {
+    background-color: #CAF4FF;
+    color:#5AB2FF;
+  }
+  .scrollable-div > a:nth-child(even) {
+    background-color: #A0DEFF;
+    color:rgb(19, 145, 248);
+  }
+  .scrollable-div > a:hover{
+    color:#359efa;
+    font-weight: bold;
+  }
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card-body{
+    padding: 0.2%;
+    border: none;
+}
+.card-body > i{
+    color:#5AB2FF;
+    margin-left: 1%;
+}
